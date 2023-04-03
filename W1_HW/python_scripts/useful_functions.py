@@ -3,14 +3,14 @@
 def encrypt_letter(letter, key):
     l_code = ord(letter)
     k_code = ord(key)
-    enc_code = l_code + k_code
+    enc_code = (l_code + k_code)%1114112 
     return(chr(enc_code))
 
 
 def decrypt_letter(letter, key):
     enc_l_code = ord(letter)
     k_code = ord(key)
-    dec_code = enc_l_code - k_code
+    dec_code = (enc_l_code - k_code)%1114112 
     return(chr(dec_code))
 
 
