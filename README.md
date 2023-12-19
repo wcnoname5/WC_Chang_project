@@ -5,4 +5,5 @@
 <br /><sub><b>Wei-Chen Chang (張瑋宸)</b></sub>
 </a>
 
-This is for my Brainhack 2023 exercise!
+This repository stores my exercises in Brainhack 2023!
+Mostly exercise of Python wroks and a little bit on analysis (playing) of fMRI data.
